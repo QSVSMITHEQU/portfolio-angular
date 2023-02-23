@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--PREGUNTA 3 CSS INTERNAL (3) CSS EXTERNAL(3)-->
+    <!--PREGUNTA 4 EXTERNAL FONT MONTSERRAT -->
+    <!--PREGUNTA 5 FLEX (5) APLICADO A UN DIV-->
+<style>
+
+    *{
+        box-sizing: border-box;
+        margin:0px; 
+        font-family: 'Montserrat';
+    }
+
+
+       .classqsv {
+           color: aqua;
+           text-align: left;
+       }
+   
+       #green {
+           color: green;
+       }
+   
+       nav.classqsv { 
+           font-weight: lighter;
+       }
+
+       .footer { 
+            font-weight: 700;
+            color: darkorchid;
+         }
+
+         div.flex-container { 
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: space-around;
+            }
+  
+    </style>
+    <link rel="stlesheet" href="https://www.w3schools.com/html/styles.css"></link> <!--REFERENCAR EN EL BODY-->
+
+    <!--PREGUNTA 4 EXTERNAL FONT MONTSERRAT-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  
+        
+   
+</head>
+<body>   
+<!--PREGUNTA 1: ARTICLE, HEADER, NAV, SECTION, ASIDE, FOOTER-->
+ <article> 
+    <Header class="classqsv">
+        <h1> Environmental Chatastrophe</h1>
+        <p>El medio ambiente está siendo destruido. Esto es malo..</p>
+    </Header>
+    <main>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus earum eligendi</p>
+    </main>
+</article>
+
+<nav>El Mar</nav> 
+    <nav class="classqsv"> 
+        <ul> 
+            <a href="/link to pagina1 de website"><li>PAGE1</li></a>
+            <a href="/link to pagina2 de website"><li>PAGE2 </li></a>
+            <a href="/link to pagina3 de website"><li>PAGE3</li></a>
+            <a href="/link to pagina4 de website"><li>PAGE4></li></a>
+        </ul>
+    </nav>
+
+<section id="#green">
+    <h1>El medio ambiente </h1>
+    <p> El medio ambiente está siendo destruido.</p>
+</section>
+
+<aside>Otras lecturas </aside> 
+    <aside> <!--PREGUNTA 3 CSS INLINE-->
+        <h4 style="color: blue">los retos medioambientales, usa estos recursos para encontrar más información</h4>
+        <p style="background-color:hsla(120, 100%, 64%, 0.5);">Las webs para buscar más información</p>
+        <p style="font-size: smaller;"> </p>
+    </aside>
+
+ <footer class="footer">
+<p>Posted by: QTsmithAgency</p>
+<p>Contact information: <a href="mailto:QTsmithAgency@QSVassociation.com">QTsmithAgency@QSVassociation.com</a></p>
+<address>JFK, 23</address>
+</footer>
+
+<!--PREGUNTA 2: MULTIMEDIA (VIDEO Y AUDIO), CON IFRAME (YOUTUBE) -->
+<!--IMAGEN-->
+<figure> <img src="/img/meta_eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==.webp" alt="Golden Retriever God" width="304", height="228"><figcaption>An Image of Beauty</figcaption>
+</figure>
+
+<!--VIDEO-->
+<video id="video" width="320" height="240" controls="controls" autoplay="autoplay" loop="loop">
+    <source src="/img/video.mp4" type="video/mp4"> <track src="subtitles_en.vtt" kind="subtitles" srclang="es" label="Spanish"></video> 
+
+<!--AUDIO-->
+<audio src="/img/Sonido.mp4" type="audio/mp4"></audio>
+
+<!--IFRAME-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.28635105146!2d2.1330268145725473!3d41.38958730382329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987aca22c0cf%3A0xdf73aeceb92ded04!2sL&#39;illa%20Diagonal!5e0!3m2!1sen!2ses!4v1677141393784!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!-- RESPUESTA A PREGUNTAS 3 Y 4 ESTAN ARRIBA Y 5-->
+<!--PREGUNTA 5, FLEX (5)- TODO APLICADO A DIV-->
+<div class="flex-container"> 
+    <div style="order: 3">1</div> 
+    <div style="order: 2">2</div> 
+    <div style="order: 4">3</div> 
+    <div style="order: 1">4</div>
+    <div style="flex-shrink: 1">5</div> 
+    <div style="flex-shrink: 0">6</div>
+
+
+<!--PREGUNTA 6: ENLAZ A UN JAVASCRIPT EXTERNAL QUE EL PROMPT/MUESTRA EN CONSOLA Y UN TEXTO EN EL HTML YYY 
+PREGUNTA 7: El prompt anterior guarde en una variable de javascript ese string y lo muestre en
+pantalla (consola o body) concatenado con un texto tipo “Hola soy “ + variable.-->
+
+   <script src="main.js"></script>
+   <script>
+    const name=prompt ("Escribe tu nombre", "Escribelo aquí");
+   {
+    Console.log(name); 
+    document.write(name);   
+};
+const person= function(prompt){
+this.variable2=prompt
+}
+
+let prompt =variable2;
+function variable2 () {
+    console.log (+'Hola mi nombre es'+''+variable2);
+    };
+</script>
+
+
+<!--PREGUNTA 8. Escribe un programa con una variable de tipo number (a) y un condicional que evalúe
+si el entero es par o impar utilizando el operador %-->
+
+<!--const a=2; if else par impar % --> 
+
+
+<!--PREGUNTA 9.Escribe un programa que pida al usuario un número entero positivo(mediante la
+función prompt) y muestre por pantalla la cuenta hacia delante desde ese número
+hasta 20, utilizando saltos de línea como separación y si es superior a 20 que lo indique
+por pantalla.--> 
+
+<script> 
+const numero =prompt("Escribe un número entero positivo");
+let a=prompt;
+if (a>0) {
+    
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
+
